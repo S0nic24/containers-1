@@ -1,0 +1,12 @@
+{
+  "extends": ["airbnb-base", "plugin:jest/recommended"],
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest": true,
+    "node": true
+  },
+  "rules": {
+    "max-len": ["warn", { "code": 120 }]
+  }
+}
